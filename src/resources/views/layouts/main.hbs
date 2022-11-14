@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+			<header>
+				{{!-- <h1>Header</h1> --}}
+				{{> header}}
+				{{!-- Support a directory of partials; 
+				e.g., {{> foo/bar}} which exists on the file system at views/partials/foo/bar.handlebars, by default. --}}
+			</header>
+			<div class="container">
+        {{{body}}}
+			</div>
+			<footer>
+				{{> footer}}
+				{{!-- <h1>Footer</h1> --}}
+			</footer>
+    </div>
+</body>
+</html>
