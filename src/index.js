@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 // HTML loger
-app.use(morgan('combined'))
+// app.use(morgan('combined'))
 
 /* Setting using Static file - file tĩnh */
 app.use(express.static(path.join(__dirname, 'public')));
@@ -28,6 +28,11 @@ app.get('/', (req, res) => {
 /*Basic Routing */
 app.get('/news', (req, res) => {
   res.render('news');
+})
+// Search
+app.get('/search', (req, res) => {
+  console.log('req', req.query.q)
+  res.render('search');
 })
 
 app.listen(port, () => {
