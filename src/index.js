@@ -24,6 +24,8 @@ console.log('dirname', path.join(__dirname, 'resources/views'));
 app.get('/', (req, res) => {
   res.render('home');
 })
+
+/*Basic Routing */
 app.get('/news', (req, res) => {
   res.render('news');
 })
