@@ -12,6 +12,13 @@ const port = 3000;
 /* Setting using Static file - file tĩnh */
 app.use(express.static(path.join(__dirname, 'public')));
 
+// when send data = form, using urlencoded
+app.use(express.urlencoded({
+  extended: true,
+}));
+
+// when send data = librari (axios, fetch...) using json
+app.use(express.json());
 
 // Template engine
 app.engine('hbs', handlebars.engine({
@@ -31,14 +38,15 @@ app.get('/news', (req, res) => {
 })
 // Search
 app.get('/search', (req, res) => {
-  console.log('req', req.query.q)
+  // console.log('req', req.query.q)
   res.render('search');
 })
 
-// app.post('/search', (req, res) => {
-//   console.log('req', req.query.q)
-//   res.render('search');
-// })
+app.post('/search', (req, res) => {
+
+  console.log(req.body)
+  res.send('');
+})
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
