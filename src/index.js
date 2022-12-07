@@ -22,9 +22,9 @@ app.use(
 );
 
 // when send data = librari (axios, fetch...) using json
-    app.use(express.json());
+app.use(express.json());
 
-     // Template engine
+// Template engine
 app.engine(
   'hbs',
   handlebars.engine({
