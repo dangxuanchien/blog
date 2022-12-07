@@ -1,9 +1,7 @@
-
 class NewsController {
-
   // [GET] /news
   index(req, res) {
-    console.log('news')
+    console.log('news');
     res.render('news');
   }
 
