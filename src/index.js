@@ -8,6 +8,12 @@ const port = 3000;
 
 const route = require('./routes');
 
+// need import for connect DB
+const db = require('./config/db');
+
+// Connect to DB
+db.connect();
+
 // HTML loger
 // app.use(morgan('combined'))
 

@@ -1,8 +1,23 @@
+const Course = require("../models/Course");
+
 class NewsController {
   // [GET] /news
   index(req, res) {
     console.log('news');
-    res.render('news');
+
+    Course.find({}, function(err, course) {
+      if (!err) {
+        return res.json(course);
+      }
+      return res.status(404).json({ error: 'err message' });
+    });
+
+    // render json when connect url
+    // res.json({
+    //   name: 'test',
+    // })
+  
+    // res.render('news');
   }
 
   // [GET] /news/:slug
