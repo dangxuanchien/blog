@@ -3,9 +3,7 @@ const Course = require("../models/Course");
 class NewsController {
   // [GET] /news
   index(req, res) {
-    console.log('news');
-
-    Course.find({}, function(err, course) {
+    Course.find({}, function (err, course) {
       if (!err) {
         return res.json(course);
       }
