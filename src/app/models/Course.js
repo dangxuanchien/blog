@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const ObjectId = Schema.ObjectId;
 const slug = require('mongoose-slug-generator');
@@ -16,4 +16,4 @@ const Course = new Schema({
   timestamps: true,
 });
 
-module.exports = mongoose.model('Course', Course);
+module.exports = mongoose.model("Course", Course);
