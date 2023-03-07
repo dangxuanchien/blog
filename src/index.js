@@ -1,4 +1,5 @@
 const express = require('express');
+const methodOverride = require('method-override')
 const morgan = require('morgan');
 const path = require('path');
 const handlebars = require('express-handlebars');
@@ -15,7 +16,7 @@ const db = require('./config/db');
 db.connect();
 
 // HTML loger
-// app.use(morgan('combined'))
+app.use(morgan('combined'))
 
 /* Setting using Static file - file tĩnh */
 app.use(express.static(path.join(__dirname, 'public')));
@@ -30,11 +31,17 @@ app.use(
 // when send data = librari (axios, fetch...) using json
 app.use(express.json());
 
+// over write mothod to POST
+app.use(methodOverride('_method'))
+
 // Template engine
 app.engine(
   'hbs',
   handlebars.engine({
     extname: '.hbs',
+    helpers: {
+      sum: (a, b) => a + b,
+    }
   }),
 );
 app.set('view engine', 'hbs');
