@@ -6,7 +6,22 @@ const courseController = require("../app/controllers/CourseController");
 router.get("/create", courseController.create);
 router.post("/store", courseController.store);
 router.get("/:id/edit", courseController.edit);
+/**
+ * Function update course by ID when click button Sửa
+ * @author Chien Dang
+ * @method PUT
+ * @path course/:id
+ * @function courseController.update
+ */
 router.put("/:id", courseController.update);
+
+/**
+ * Function delete course by ID when click button Sửa
+ * @author Chien Dang
+ * @path course/:id
+ * @function courseController.update
+ */
+router.delete("/:id", courseController.destroy);
 router.get("/:slug", courseController.show);
 
 module.exports = router;
