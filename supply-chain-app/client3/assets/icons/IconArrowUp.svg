@@ -1,0 +1,10 @@
+<svg width="35" height="30" fill="#F2F2F2" viewBox="0 0 36 31" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden">
+	<defs>
+		<clipPath id="clip0">
+			<rect x="1756" y="343" width="36" height="30" />
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip0)" transform="translate(-1756 -343)">
+		<path d="M1756 373 1774 343 1792 373Z" fill="inherit" fill-rule="evenodd" />
+	</g>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="40" height="40" viewBox="0 0 41 41" fill="#F2F2F2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden">
+	<defs>
+		<clipPath id="clip0">
+			<rect x="2037" y="2211" width="41" height="40" />
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip0)" transform="translate(-2037 -2211)">
+		<path d="M2037 2219.16C2037 2214.65 2040.65 2211 2045.16 2211L2069.84 2211C2074.35 2211 2078 2214.65 2078 2219.16L2078 2242.84C2078 2247.35 2074.35 2251 2069.84 2251L2045.16 2251C2040.65 2251 2037 2247.35 2037 2242.84Z" fill="inherit" fill-rule="evenodd" fill-opacity="0.101961" />
+	</g>
+</svg>

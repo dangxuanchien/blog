@@ -1,0 +1,9 @@
+#add ignore files you want ignore when build docker image
+
+#ignore folder has director is pages/cloud/
+Dockerfile.dockerignore
+Dockerfile
+README.md
+test
+#ignore node_modules
+node_modules

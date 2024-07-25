@@ -1,0 +1,42 @@
+<svg
+    width="72"
+    height="59"
+    viewBox="0 0 73 60"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xml:space="preserve"
+    overflow="hidden"
+><defs><clipPath id="clip0"><rect x="1936" y="1102" width="72" height="59" /></clipPath></defs><g
+        clip-path="url(#clip0)"
+        transform="translate(-1936 -1102)"
+    ><path
+            d="M1936 1107.68C1936 1104.54 1938.54 1102 1941.68 1102L2002.32 1102C2005.46 1102 2008 1104.54 2008 1107.68L2008 1155.32C2008 1158.46 2005.46 1161 2002.32 1161L1941.68 1161C1938.54 1161 1936 1158.46 1936 1155.32Z"
+            fill="#A6A6A6"
+            fill-rule="evenodd"
+        /><rect x="1942" y="1123" width="17.0002" height="14.0001" fill="#F2F2F2" /><rect
+            x="1963"
+            y="1123"
+            width="16.9999"
+            height="14.0001"
+            fill="#F2F2F2"
+        /><rect x="1942" y="1142" width="17.0002" height="15.0001" /><rect
+            x="1963"
+            y="1142"
+            width="16.9999"
+            height="15.0001"
+            fill="#F2F2F2"
+        /><rect x="1985" y="1123" width="16.9999" height="14.0001" /><rect
+            x="1985"
+            y="1142"
+            width="16.9999"
+            height="15.0001"
+            fill="#F2F2F2"
+        /><path
+            d="M1950 1111.5C1950 1108.46 1952.46 1106 1955.5 1106 1958.54 1106 1961 1108.46 1961 1111.5 1961 1114.54 1958.54 1117 1955.5 1117 1952.46 1117 1950 1114.54 1950 1111.5Z"
+            fill="#FFFFFF"
+            fill-rule="evenodd"
+        /><path
+            d="M1982 1111.5C1982 1108.46 1984.69 1106 1988 1106 1991.31 1106 1994 1108.46 1994 1111.5 1994 1114.54 1991.31 1117 1988 1117 1984.69 1117 1982 1114.54 1982 1111.5Z"
+            fill="#FFFFFF"
+            fill-rule="evenodd"
+        /></g></svg>

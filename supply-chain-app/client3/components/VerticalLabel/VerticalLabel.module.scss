@@ -1,0 +1,15 @@
+.verticalLabel {
+    width: 45px;
+    height: 100%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    p {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        color: #ffffff;
+        height: 100%;
+        text-align: center;
+        font-weight: 600;
+    }
+}

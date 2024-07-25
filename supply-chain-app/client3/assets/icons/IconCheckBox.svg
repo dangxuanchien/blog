@@ -1,0 +1,11 @@
+<svg width="40" height="40" fill="#F2F2F2" viewBox="0 0 41 41" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" overflow="hidden">
+	<defs>
+		<clipPath id="clip0">
+			<rect x="1934" y="2219" width="40" height="41" />
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip0)" transform="translate(-1934 -2219)">
+		<path d="M1934 2227.16C1934 2222.65 1937.65 2219 1942.16 2219L1965.84 2219C1970.35 2219 1974 2222.65 1974 2227.16L1974 2251.84C1974 2256.35 1970.35 2260 1965.84 2260L1942.16 2260C1937.65 2260 1934 2256.35 1934 2251.84Z" fill="inherit" fill-rule="evenodd" fill-opacity="0.101961" />
+		<path d="M1939.5 2236.35 1951.2 2251.5 1970.5 2226.5" stroke="#F2F2F2" stroke-width="4.58333" stroke-miterlimit="8" fill="none" fill-rule="evenodd" />
+	</g>
+</svg>
